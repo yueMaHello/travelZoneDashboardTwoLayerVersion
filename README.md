@@ -1,4 +1,4 @@
-# Travel Zone Dashboard
+# Travel Zone Dashboard (Two Layers)
 This is a Nodejs web application using Arcgis Javascript API. It displays a dynamic dashboard. When the user clicks on a travel zone, the charts will change correspondingly. Highcharts.js is used to draw various kinds of charts.
 ## Set Up:
 #### From Github:
