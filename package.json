@@ -1,0 +1,40 @@
+{
+  "name": "te",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "async": "^2.6.1",
+    "cookie-parser": "~1.4.3",
+    "csv": "^4.0.0",
+    "csv-parse": "^2.5.0",
+    "csvtojson": "^2.0.7",
+    "d3": "^5.5.0",
+    "d3-queue": "^3.0.7",
+    "debug": "~2.6.9",
+    "ejs": "^2.6.1",
+    "express": "~4.16.0",
+    "fast-csv": "^2.4.1",
+    "fs": "0.0.1-security",
+    "http-errors": "~1.6.2",
+    "jade": "~1.11.0",
+    "jquery": "^3.3.1",
+    "jsdom": "^11.11.0",
+    "line-by-line": "^0.1.6",
+    "morgan": "~1.9.0",
+    "pg": "^7.4.3",
+    "pg-hstore": "2.3.2",
+    "promise": "^8.0.1",
+    "queue": "^4.4.2",
+    "rsvp": "^4.8.3",
+    "sequelize": "4.37.10",
+    "socket.io-stream": "^0.9.1",
+    "topojson": ">=1.6.6 <2"
+  },
+  "devDependencies": {
+    "testcafe": "^0.21.1",
+    "testcafe-live": "^0.1.3"
+  }
+}

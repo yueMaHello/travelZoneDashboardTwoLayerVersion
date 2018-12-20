@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="A front-end template that helps you build fast, modern mobile web apps.">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+<title>Travel Zone Dashboard</title>
+<input id='tour' type="button" value='Take A Tour'>
+<input id='travelPage' type="button" value='Go To Travel Info' onclick="window.location='/travel';">
+
+<link href="./externalStylesheet/introjs.css" rel="stylesheet">
+<link href="./externalStylesheet/introjs-modern.css" rel="stylesheet">
+<script src="./externalJS/intro.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!--<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js"></script>-->
+
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/highcharts-more.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
+<script src="https://code.highcharts.com/modules/export-data.js"></script>
+<script src="https://code.highcharts.com/modules/bullet.js"></script>
+<script src="https://code.highcharts.com/modules/drilldown.js"></script>
+<link rel="stylesheet" href="./stylesheets/styleHousehold.css">
+<link rel="stylesheet" href="https://js.arcgis.com/3.26/esri/css/esri.css">
+<script src="https://code.highcharts.com/modules/variable-pie.js"></script>
+<script src="https://js.arcgis.com/3.26/"></script>
+<link rel="shortcut icon" href="">
+</head>
+<body>
+
+
+<!--If you want to move charts' positions, you should simply move the div in class 'subchart'.
+ For example, if you want to exchange the '<div class='subchart' id=tripsByPurpose></div>' with the '<div class='subchart' id ='mode'></div>',
+ then you can refresh the webpage through clicking 'ctrl+F5'. You will notice the first two charts exchanged their positions with each other-->
+<div id="div1">
+    <div id="verticalCharts">
+        <div id="chart1">
+            <div class = 'subchart' id="job_pop_info">
+                <p>Jobs VS Population: <em id="jobVSpop"></em></p>
+                <p>Total Population per Zone: <em id="popPerZone"></em></p>
+                <p>Total Population Density: <em id="popDensity"></em>/m^2</p>
+                <p>Total Employment per Zone: <em id="empPerZone"></em></p>
+                <p>Total Employment Density: <em id="empDensity"></em>/m^2</p>
+            </div>
+        </div>
+        <div id="chart2">
+            <div class="subchart" id="ageDistribution"></div>
+
+
+        </div>
+    </div>
+
+    <div id="mapZone">
+        <div id = title>
+            <p id="titleText">Travel Zone Dashboard</p>
+        </div>
+        <div id="mapDiv"></div>
+    </div>
+</div>
+<div id="div2">
+    <div id="chart3">
+
+        <button class='subchart' type="button" class="btn btn-primary" id="changeView">Change View</button>
+        <div class='subchart' id = 'empByOccupationOrIndustry'></div>
+
+    </div>
+    <div id="chart4">
+        <div class='subchart' id = 'dwelling'></div>
+    </div>
+    <div id="chart5">
+        <div class='subchart' id = 'autoOwnership'></div>
+    </div>
+    <div id="chart6">
+        <div class='subchart' id = 'HHSize'></div>
+    </div>
+    <div id="chart7">
+        <div class='subchart' id = 'income'></div>
+    </div>
+</div>
+
+<div id="testDiv" >
+    There is no trip data of your selected zone.
+</div>
+
+<script src="./javascripts/household.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,132 @@
+
+html, body {
+  font-family: 'Roboto', 'Helvetica', sans-serif;
+  background-color: #2D343C;
+  color: #ffffff;
+  height: 100%; padding: 0; margin: 0;
+}
+
+#div1 { background: #ffffff;width: 100%; height: 65%; float: left;}
+#div2 { background: #ffffff;width: 100%; height: 35%; float: left; }
+
+
+#verticalCharts{ background: #ffffff;width: 20%; height: 100%; float: left;}
+#mapZone{ background: dimgrey;width: 80%; height: 100%; float: left;}
+
+
+#chart1{
+  width:100%;
+  height:50%;
+  background: #ffffff
+}
+
+#chart2{
+  width:100%;
+  height:50%;
+  background: #ffffff;
+}
+#chart3{
+  float: left;
+  width:20%;
+  height:100%;
+  background: #ffffff;
+}
+#chart4{
+  float: left;
+  width:20%;
+  height:100%;
+  background: #ffffff;
+}
+#chart5{
+  float: left;
+  width:20%;
+  height:100%;
+  background: #ffffff;
+}
+#chart6{
+  float: left;
+  width:20%;
+  height:100%;
+  background: #ffffff;
+}
+#chart7{
+  float: left;
+  width:20%;
+  height:100%;
+  background: #ffffff;
+}
+#title{
+
+  height:10%;
+  width: 100%;
+}
+#mapDiv{
+  height:90%;
+  width:100%;
+}
+#titleText{
+  position:absolute;
+  left:54%;
+  text-align: center;
+  font-size:23px;
+}
+/* Clear floats after the columns */
+#age,#income,#HHSize,#mode,#autoOwnership,#bulletCharts,#dwelling,#tripsByPurpose{
+  height:99%;
+  width: 99%;
+}
+#avgDist,#avgGHG,#totalEmp,#totalPop {
+  margin-right:0px;
+  width: 97%;
+}
+div.subchart {
+  float:left;
+  border-radius: 4px;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.53);
+  border: solid 1px #e1e1e1;
+}
+
+#testDiv{
+  z-index:1000;
+  position:absolute;
+  top:70px;
+  left:130px;
+  display: none;
+  width: 200px;
+  height: 50px;
+  background-color:#999999
+}
+#changeView{
+    z-index:1000;
+    position:absolute;
+    height:25px;
+    margin-top:10px;
+    margin-left:10px;
+}
+.back{
+  position:absolute;
+  margin-top:-300px;
+  margin-left:10px;
+  z-index:1000;
+}
+#tour{
+  border-radius: 25px;
+  border: 2px solid #000000;
+  padding: 10px;
+  z-index:100;
+  position:absolute;
+  top:15px;
+  right:10px;
+  cursor:pointer;
+
+}
+#travelPage{
+  border-radius: 25px;
+  border: 2px solid #000000;
+  padding: 10px;
+  z-index:100;
+  position:absolute;
+  top:15px;
+  right:120px;
+  cursor:pointer;
+}
