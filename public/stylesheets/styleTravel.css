@@ -6,8 +6,8 @@ html, body {
   height: 100%; padding: 0; margin: 0;
 }
 
-#div1 { background: #ffffff;width: 100%; height: 65%; float: left;}
-#div2 { background: #ffffff;width: 100%; height: 35%; float: left; }
+#div1 { background: #ffffff;width: 100%; height: 100%; float: left;}
+
 
 
 #verticalCharts{ background: #ffffff;width: 20%; height: 100%; float: left;}
@@ -16,52 +16,28 @@ html, body {
 
 #chart1{
   width:100%;
-  height:50%;
+  height:33.3%;
   background: #ffffff
 }
 
 #chart2{
   width:100%;
-  height:50%;
+  height:33.3%;
   background: #ffffff;
 }
 #chart3{
-  float: left;
-  width:20%;
-  height:100%;
+  width:100%;
+  height:33.4%;
   background: #ffffff;
 }
-#chart4{
-  float: left;
-  width:20%;
-  height:100%;
-  background: #ffffff;
-}
-#chart5{
-  float: left;
-  width:20%;
-  height:100%;
-  background: #ffffff;
-}
-#chart6{
-  float: left;
-  width:20%;
-  height:100%;
-  background: #ffffff;
-}
-#chart7{
-  float: left;
-  width:20%;
-  height:100%;
-  background: #ffffff;
-}
+
 #title{
 
-  height:10%;
+  height:6%;
   width: 100%;
 }
 #mapDiv{
-  height:90%;
+  height:94%;
   width:100%;
 }
 #titleText{

@@ -685,7 +685,13 @@ $('#tour').on('click',function(e){
                 element: '#avgDist',
                 intro: 'Again, try to click on a blue label!',
                 position: 'top'
+            },
+            {
+                element: '#travelPage',
+                intro: 'Click this button to find Household Info for your traffic zone!',
+                position: 'top'
             }
+
         ]
     });
     intro1.start();
